@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    font-family: 'Courier';
+    height: 100%;
+    background-color: #b9b9b9;
+    font-style: normal;
+    font-weight: bold;
+
+
+    &.active{
+        overflow: hidden;
+    }
+}
+
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+    // overflow-x: hidden;
+
+    @media screen and (max-width:825px) {
+        padding: 0 35px;
+    }
+}
+
+
+
+// @media(max-width:1200px){
+//     .container{
+//         padding: 0 35px;
+//     }
+// }
+
+

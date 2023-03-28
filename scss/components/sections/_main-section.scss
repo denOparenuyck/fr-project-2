@@ -1,0 +1,21 @@
+.main{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+
+    &.main-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .main{
+        display: none;
+    }
+    .main.main-mobile{
+        display: block;
+        overflow: auto;
+    }
+}
+
+
